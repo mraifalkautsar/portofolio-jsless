@@ -9,7 +9,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: #333;
-  background-color: #f5f5f5;
+  background-color: #f0f5ff;
 }
 
 .container {
@@ -27,7 +27,7 @@ body {
   gap: 40px;
   padding: 60px 20px;
   background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(78, 103, 189, 0.15);
 }
 
 .profile-image {
@@ -51,19 +51,19 @@ body {
 
 .description h1 {
   font-size: 2.5rem;
-  color: #222;
+  color: #2d3748;
   margin-bottom: 10px;
 }
 
 .description h2 {
   font-size: 1.3rem;
-  color: #555;
+  color: #4a5568;
   margin-bottom: 10px;
   font-weight: 500;
 }
 
 .description p {
-  color: #666;
+  color: #4a5568;
   margin-bottom: 20px;
 }
 
@@ -81,13 +81,13 @@ body {
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #f0f0f0;
+  background-color: #e6efff;
   border-radius: 50%;
   transition: background-color 0.3s;
 }
 
 .social-links a:hover {
-  background-color: #e0e0e0;
+  background-color: #d1e0ff;
 }
 
 .social-links img {
@@ -105,7 +105,7 @@ body {
 .cv-button a {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #3366ff;
+  background-color: #5e72e4;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -115,28 +115,29 @@ body {
 
 .cv-button:nth-child(2) a {
   background-color: transparent;
-  border: 1px solid #3366ff;
-  color: #3366ff;
+  border: 1px solid #5e72e4;
+  color: #5e72e4;
 }
 
 .cv-button a:hover {
-  background-color: #2952cc;
+  background-color: #4959b8;
 }
 
 .cv-button:nth-child(2) a:hover {
-  background-color: rgba(51, 102, 255, 0.1);
+  background-color: rgba(94, 114, 228, 0.1);
 }
 
 .skills {
   padding: 60px 20px;
-  background-color: #f9f9f9;
+  background-color: #eef2ff;
+  background-image: linear-gradient(120deg, #eef2ff 0%, #e6efff 100%);
 }
 
 .skills h2 {
   font-size: 1.8rem;
   margin-bottom: 30px;
   text-align: center;
-  color: #222;
+  color: #2d3748;
 }
 
 .skill-list ul {
@@ -152,25 +153,27 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   text-align: center;
-  border: 1px solid #eee;
+  border: 1px solid #d1e0ff;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .skill-list li:hover {
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-color: #5e72e4;
+  box-shadow: 0 5px 15px rgba(94, 114, 228, 0.15);
 }
 
 .experiences {
   padding: 60px 20px;
   background-color: #fff;
+  background-image: linear-gradient(180deg, #fff 0%, #f8faff 100%);
 }
 
 .experiences h2 {
   font-size: 1.8rem;
   margin-bottom: 40px;
   text-align: center;
-  color: #222;
+  color: #2d3748;
 }
 
 .timeline {
@@ -183,7 +186,7 @@ body {
   content: '';
   position: absolute;
   width: 2px;
-  background-color: #ddd;
+  background-color: #cbd5e0;
   top: 0;
   bottom: 0;
   left: 20px;
@@ -202,7 +205,7 @@ body {
   width: 16px;
   height: 16px;
   left: 13px;
-  background-color: #3366ff;
+  background-color: #5e72e4;
   border: 2px solid #fff;
   border-radius: 50%;
   z-index: 1;
@@ -210,36 +213,36 @@ body {
 
 .timeline-content {
   padding: 20px;
-  background-color: #f8f8f8;
+  background-color: #f8faff;
   border-radius: 8px;
-  border-left: 3px solid #3366ff;
+  border-left: 3px solid #5e72e4;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .timeline-content:hover {
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(94, 114, 228, 0.15);
 }
 
 .job-title {
   margin: 0 0 5px 0;
   font-size: 1.1rem;
-  color: #333;
+  color: #2d3748;
 }
 
 .job-period {
   display: inline-block;
   font-size: 0.9rem;
-  color: #666;
+  color: #4a5568;
   margin-bottom: 10px;
   padding: 2px 8px;
-  background-color: #e8e8e8;
+  background-color: #e6efff;
   border-radius: 4px;
 }
 
 .job-description {
   font-size: 0.95rem;
-  color: #555;
+  color: #4a5568;
   margin-top: 10px;
 }
