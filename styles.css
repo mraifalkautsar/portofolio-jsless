@@ -1,4 +1,4 @@
-/* le buat reset*/
+/* Buat reset*/
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,6 @@ body {
   padding: 20px;
 }
 
-/* Hero Section */
 .about {
   display: flex;
   flex-direction: row;
@@ -162,12 +161,12 @@ body {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.projects {
+.experiences {
   padding: 60px 20px;
   background-color: #fff;
 }
 
-.projects h2 {
+.experiences h2 {
   font-size: 1.8rem;
   margin-bottom: 40px;
   text-align: center;
