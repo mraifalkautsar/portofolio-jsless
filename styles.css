@@ -22,7 +22,7 @@ html {
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(78, 103, 189, 0.15);
   z-index: 100;
-  padding: 15px 0;
+  padding: 0px 0;
 }
 
 .nav ul {
